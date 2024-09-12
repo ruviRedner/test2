@@ -41,19 +41,10 @@ const Mission4 = (array) =>{
     console.log(Mission4([7,2,1,-1,-6]));
     
 
-    
-
-    
-        
 
 
-const Mission5 =() =>{
 
-}
 
-const Mission6 =() =>{
-
-}
 
 
 
@@ -73,8 +64,6 @@ module.exports = {
     Mission1,
     Mission2,
     Mission3,
-    Mission4,
-    Mission5,
-    Mission6
+    Mission4
 }
    
