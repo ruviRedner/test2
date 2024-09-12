@@ -5,9 +5,13 @@ const Mission1 =(numbers) =>{
 console.log(Mission1([1, 2, 3, 4, 5, 6, 7,8,9]));
 
 
-const Mission2 =() =>{
-
+const Mission2 =(string) =>{
+    const strToArray = string.split(' ');
+    const wordLengths = strToArray.filter(word => word.length == 4);
+    return wordLengths.length
 }
+console.log(Mission2("בדיקה לתרגיל 2 מספר נראה לי יצא סבבה"));
+
 
 const Mission3 =() =>{
 
